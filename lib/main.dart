@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_books/second_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(
+    home: MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
