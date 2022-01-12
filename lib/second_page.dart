@@ -15,6 +15,7 @@ class SecondPage extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             //main page function
+            Navigator.pop(context);
           },
           child: Text("Back"),
         ),
